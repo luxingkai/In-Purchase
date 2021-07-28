@@ -14,6 +14,13 @@
 		112603EA2478BAF500B1C006 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 112603E92478BAF500B1C006 /* main.m */; };
 		112603F42478BAF500B1C006 /* In_PurchaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112603F32478BAF500B1C006 /* In_PurchaseTests.m */; };
 		112603FF2478BAF500B1C006 /* In_PurchaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112603FE2478BAF500B1C006 /* In_PurchaseUITests.m */; };
+		1157C3C82670539800282037 /* OverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1157C3C72670539800282037 /* OverviewViewController.m */; };
+		1157C3CB267054CA00282037 /* In-AppPurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1157C3CA267054CA00282037 /* In-AppPurchaseViewController.m */; };
+		1157C3CE2670632100282037 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1157C3CD2670632100282037 /* StoreKit.framework */; };
+		1157C3D12670642600282037 /* OriginAPIForPurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1157C3D02670642600282037 /* OriginAPIForPurchaseViewController.m */; };
+		1157C3D42670937000282037 /* 54baa6a8-c720-4fa3-85f9-94757bfb8fcf.png in Resources */ = {isa = PBXBuildFile; fileRef = 1157C3D32670937000282037 /* 54baa6a8-c720-4fa3-85f9-94757bfb8fcf.png */; };
+		1157C3D6267094E900282037 /* 72854e67-c7cc-4f67-8ea0-58b54d073450.png in Resources */ = {isa = PBXBuildFile; fileRef = 1157C3D5267094E800282037 /* 72854e67-c7cc-4f67-8ea0-58b54d073450.png */; };
+		1157C3D826709C0500282037 /* on-device_auto-renewable_subscriptions.png in Resources */ = {isa = PBXBuildFile; fileRef = 1157C3D726709C0500282037 /* on-device_auto-renewable_subscriptions.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,17 @@
 		112603FA2478BAF500B1C006 /* In-PurchaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "In-PurchaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		112603FE2478BAF500B1C006 /* In_PurchaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = In_PurchaseUITests.m; sourceTree = "<group>"; };
 		112604002478BAF500B1C006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1157C3C62670539800282037 /* OverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverviewViewController.h; sourceTree = "<group>"; };
+		1157C3C72670539800282037 /* OverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverviewViewController.m; sourceTree = "<group>"; };
+		1157C3C9267054CA00282037 /* In-AppPurchaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "In-AppPurchaseViewController.h"; sourceTree = "<group>"; };
+		1157C3CA267054CA00282037 /* In-AppPurchaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "In-AppPurchaseViewController.m"; sourceTree = "<group>"; };
+		1157C3CD2670632100282037 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1157C3CF2670642600282037 /* OriginAPIForPurchaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OriginAPIForPurchaseViewController.h; sourceTree = "<group>"; };
+		1157C3D02670642600282037 /* OriginAPIForPurchaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriginAPIForPurchaseViewController.m; sourceTree = "<group>"; };
+		1157C3D22670654800282037 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1157C3D32670937000282037 /* 54baa6a8-c720-4fa3-85f9-94757bfb8fcf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "54baa6a8-c720-4fa3-85f9-94757bfb8fcf.png"; sourceTree = "<group>"; };
+		1157C3D5267094E800282037 /* 72854e67-c7cc-4f67-8ea0-58b54d073450.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "72854e67-c7cc-4f67-8ea0-58b54d073450.png"; sourceTree = "<group>"; };
+		1157C3D726709C0500282037 /* on-device_auto-renewable_subscriptions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "on-device_auto-renewable_subscriptions.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1157C3CE2670632100282037 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,7 @@
 				112603F22478BAF500B1C006 /* In-PurchaseTests */,
 				112603FD2478BAF500B1C006 /* In-PurchaseUITests */,
 				112603D52478BAF400B1C006 /* Products */,
+				1157C3CC2670632100282037 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +123,19 @@
 				112603D82478BAF400B1C006 /* AppDelegate.m */,
 				112603DD2478BAF400B1C006 /* ViewController.h */,
 				112603DE2478BAF400B1C006 /* ViewController.m */,
+				1157C3C62670539800282037 /* OverviewViewController.h */,
+				1157C3C72670539800282037 /* OverviewViewController.m */,
+				1157C3C9267054CA00282037 /* In-AppPurchaseViewController.h */,
+				1157C3CA267054CA00282037 /* In-AppPurchaseViewController.m */,
+				1157C3CF2670642600282037 /* OriginAPIForPurchaseViewController.h */,
+				1157C3D02670642600282037 /* OriginAPIForPurchaseViewController.m */,
 				112603E32478BAF500B1C006 /* Assets.xcassets */,
+				1157C3D726709C0500282037 /* on-device_auto-renewable_subscriptions.png */,
+				1157C3D5267094E800282037 /* 72854e67-c7cc-4f67-8ea0-58b54d073450.png */,
+				1157C3D32670937000282037 /* 54baa6a8-c720-4fa3-85f9-94757bfb8fcf.png */,
 				112603E52478BAF500B1C006 /* LaunchScreen.storyboard */,
 				112603E82478BAF500B1C006 /* Info.plist */,
+				1157C3D22670654800282037 /* PrefixHeader.pch */,
 				112603E92478BAF500B1C006 /* main.m */,
 			);
 			path = "In-Purchase";
@@ -127,6 +157,14 @@
 				112604002478BAF500B1C006 /* Info.plist */,
 			);
 			path = "In-PurchaseUITests";
+			sourceTree = "<group>";
+		};
+		1157C3CC2670632100282037 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1157C3CD2670632100282037 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +270,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1157C3D826709C0500282037 /* on-device_auto-renewable_subscriptions.png in Resources */,
 				112603E72478BAF500B1C006 /* LaunchScreen.storyboard in Resources */,
+				1157C3D42670937000282037 /* 54baa6a8-c720-4fa3-85f9-94757bfb8fcf.png in Resources */,
 				112603E42478BAF500B1C006 /* Assets.xcassets in Resources */,
+				1157C3D6267094E900282037 /* 72854e67-c7cc-4f67-8ea0-58b54d073450.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				112603DF2478BAF400B1C006 /* ViewController.m in Sources */,
+				1157C3C82670539800282037 /* OverviewViewController.m in Sources */,
+				1157C3CB267054CA00282037 /* In-AppPurchaseViewController.m in Sources */,
 				112603D92478BAF400B1C006 /* AppDelegate.m in Sources */,
+				1157C3D12670642600282037 /* OriginAPIForPurchaseViewController.m in Sources */,
 				112603EA2478BAF500B1C006 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +466,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HU7J6PUQSE;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/In-Purchase/PrefixHeader.pch";
 				INFOPLIST_FILE = "In-Purchase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,6 +484,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HU7J6PUQSE;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/In-Purchase/PrefixHeader.pch";
 				INFOPLIST_FILE = "In-Purchase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
